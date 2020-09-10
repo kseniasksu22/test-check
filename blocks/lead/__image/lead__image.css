@@ -1,0 +1,16 @@
+.lead__image
+{
+	max-width:100%;
+
+	/*height: auto; */
+	padding-bottom: 8px;
+	 
+}
+
+@media screen and (max-width :1024px)
+ {
+ 	.lead__image
+	{
+		
+	}
+ }

@@ -1,0 +1,31 @@
+.lead
+{	min-height: 320px;
+	max-width: 984px;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 48px;
+}
+
+.lead figure
+{
+	margin:0px;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.lead
+	{
+	 min-width: 320px;
+		max-width: 928px;
+	}
+}
+
+@media screen and (max-width: 768)
+{
+	.lead {
+	 
+	}
+}
