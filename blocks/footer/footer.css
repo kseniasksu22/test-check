@@ -7,7 +7,7 @@
 }
 .footer ul
 {
-	list-style-type: none;
+	display: flex;
 	padding: 0px;
 	margin: 0px;
 
@@ -15,7 +15,7 @@
 
 .footer li
 { 
- 	display: inline;
+ 	list-style-type: none;
 	padding-right: 18px;
 }
 
@@ -39,7 +39,7 @@
 
 }
 
-@media screen and (max-width :320px) {
+@media screen and (max-width :534px) {
 	.footer
 	{
 		padding-top: 48px;
@@ -47,9 +47,15 @@
 		padding-left: 16px;
 	}
 
+	.footer ul
+	{ 
+		
+	 	flex-direction: column;
+	}
+
 	.footer li
 	{ 
-		display: block;
+		
 	 	padding-bottom: 32px;
 	}
 
